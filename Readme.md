@@ -28,10 +28,10 @@ Format #1 is a simple text block composed of 5 rows and 5 columns. Each row desc
 
 The order of the characters between each set of brackets indicates the direction of the wall the character applies to:
 
-*[0]: What is on the north wall of the room
-*[1]: What is on the east wall of the room
-*[2]: What is on the south wall of the room
-*[3]: What is on the west wall of the room
+* [0]: What is on the north wall of the room
+* [1]: What is on the east wall of the room
+* [2]: What is on the south wall of the room
+* [3]: What is on the west wall of the room
 
 Such that if you had a room that was described as '[E**|]' that room would:
  *Have an entrance to the north
