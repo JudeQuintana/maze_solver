@@ -1,7 +1,8 @@
 
 ## Intro
 Found some old code when I was a junior dev applying to a telecom dev
-job.
+job. Only got to solving if the maze was valide, didnt get to finding
+the shortest path.
 
 
 ## Activity Description
