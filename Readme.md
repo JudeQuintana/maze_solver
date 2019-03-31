@@ -1,9 +1,8 @@
 
 ## Intro
 Found some old code when I was a junior dev applying to a telecom dev
-job. Only got to solving if the maze was valide, didnt get to finding
-the shortest path.
-
+job that I didn't get. Only got to solving if the maze was valid,
+ran out of time so didnt get to finding the shortest path.
 
 ## Activity Description
 For this activity I will need you to build an application (in ruby, ruby/rails, python, C/C++, Java) that solves a maze provided by a user. The program should accept user input as text (or as a file) then process the input to ensure it follows the rules as described below. The user input will follow one of the two formats displayed below, choose the format you prefer. After the input is processed the program should then attempt to solve the maze, starting at the entrance 'E' and ending on the exit 'X'. For each entrance to the maze, return exactly one solution. Fastest path is not required but is preferred.
@@ -16,6 +15,7 @@ For this activity I will need you to build an application (in ruby, ruby/rails, 
 4. Make your program readable, testable, runnable and maintainable. You might be asked to change your program later to
 handle unexpected changes in the requirements.
 5. Try to finish, if you need to forgo a rule/requirement to get a functional prototype done then do so.
+
 ## Input Formats
 The formats listed below cover your choices for user input for your program. Your final submission is only expected to handle one and I will test your submission using your preferred format (please be sure to tell me which option you chose). The explanations for each format appear under their sample. Both samples are expressions of the same maze, look at both and compare.
 
@@ -61,6 +61,7 @@ Such that if you had a room that was described as '[E**|]' that room would:
   +--+--+--+--+--+
 0  1  2  3  4  5
 ```
+
 Format #2 is more complex but is a much more obvious representation of the maze. The maze is composed of:
   * 5 rows of 5 rooms ...and..
   * 5 columns of 5 rooms
