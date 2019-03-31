@@ -106,7 +106,7 @@ Once again, both of these input samples express the exact same maze. You can pic
 ```
 (Both samples represent the same data)
 
-##Sample Input/Output:
+## Sample Input/Output:
 Below you will find a sample of input and output for the program, you are of course free to change this however you like. There are better ways of doing this.
 
 ```
