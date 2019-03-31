@@ -1,10 +1,16 @@
+
+## Intro
+Found some old code when I was a junior dev applying to a telecom dev
+job.
+
+
 ## Activity Description
 For this activity I will need you to build an application (in ruby, ruby/rails, python, C/C++, Java) that solves a maze provided by a user. The program should accept user input as text (or as a file) then process the input to ensure it follows the rules as described below. The user input will follow one of the two formats displayed below, choose the format you prefer. After the input is processed the program should then attempt to solve the maze, starting at the entrance 'E' and ending on the exit 'X'. For each entrance to the maze, return exactly one solution. Fastest path is not required but is preferred.
+
 ## Goals:
 1. Make sure the maze is valid, this means that it adheres to provided rules as well as any rules you think might be important. (Maybe mazes should have to be solvable?) For each issue display the problem in a clear and concise way (crashing is not okay).
 2. For each given entrance, find a path to an exit. Express this path in a clear and meaningful way.
-###SUGGESTION: Do it visually or perhaps using an ordered list of steps 'Go south from room 1,1 to room 1,2') per
-entrance
+    * SUGGESTION: Do it visually or perhaps using an ordered list of steps 'Go south from room 1,1 to room 1,2') per entrance
 3. Find the quickest path to any exit for each entrance. Express this path in a clear and meaningful way.
 4. Make your program readable, testable, runnable and maintainable. You might be asked to change your program later to
 handle unexpected changes in the requirements.
@@ -34,10 +40,10 @@ The order of the characters between each set of brackets indicates the direction
 * [3]: What is on the west wall of the room
 
 Such that if you had a room that was described as '[E**|]' that room would:
- *Have an entrance to the north
- *Have a hallway to the next room on the east: x,y -> 2,1 (the room to the right of this room in the current row) 
- *Have a hallway to the room below it: x,y -> 1,2 (the room below this room in the current column)
- *Have a wall on the west
+ * Have an entrance to the north
+ * Have a hallway to the next room on the east: x,y -> 2,1 (the room to the right of this room in the current row) 
+ * Have a hallway to the room below it: x,y -> 1,2 (the room below this room in the current column)
+ * Have a wall on the west
 
 ## Input Sample, Format #2:
 ```
