@@ -39,6 +39,36 @@ Such that if you had a room that was described as '[E**|]' that room would:
  *Have a hallway to the room below it: x,y -> 1,2 (the room below this room in the current column)
  *Have a wall on the west
 
+## Input Sample, Format #2:
+```
+  +E +--+--+--+--+
+1 |              |
+  +  +  +--+  +  +
+2 |  |  |     |  |
+  +   --+  +  +--+
+3 E  |     |  |  X
+  +--+  +  +--+  +
+4 |              |
+  +  +--+  +  +  +
+5 |     |     |  |
+  +--+--+--+--+--+
+0  1  2  3  4  5
+```
+Format #2 is more complex but is a much more obvious representation of the maze. The maze is composed of:
+  * 5 rows of 5 rooms ...and..
+  * 5 columns of 5 rooms
+
+Each row/column will be described by 3 rows/columns of text respectively. Each row/column will share at least one row/column of text with its neighbor. (Simply put, walls are shared). The character sets (some things are more than one character) composing each row/column are as follows:
+
+ * 'E': For an entrance
+ * 'X': For an exit
+ * '+': A corner met by 2 or more walls, it means nothing and is there to make the maze more tolerable to look at.
+ * ' ': (exactly one space) Empty space. This can mean a doorway connecting to an adjacent room or space allocated to show the middle of the room (means nothing, there to make the maze more tolerable to look at)
+ * '--' or '|': A wall
+ * '1' or '2' or '3' or '4' or '5': Row/column numbers, it means nothing and is there to make the maze more tolerable to look at.
+
+Once again, both of these input samples express the exact same maze. You can pick either one.
+
 ## Maze/Input Rules:
 
 1. Rooms must be valid.
